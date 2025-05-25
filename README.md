@@ -17,4 +17,4 @@ This GitHub repository showcases high-impact, real-world SOC analyst content to 
 - ✅ Recruiter-ready format with real-world relevance  
 
 ## 📬 Contact
-Minhazul Chowdhury · [LinkedIn](https://www.linkedin.com/in/minhazul-chowdhury) · YOUR.mchowdhury.ce2010@gmail.com
+Minhazul Chowdhury · [LinkedIn](https://www.linkedin.com/in/minhazul-chowdhury) · mchowdhury.ce2010@gmail.com
