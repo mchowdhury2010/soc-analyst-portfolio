@@ -1,32 +1,36 @@
 {
   "version": "4.5",
   "name": "SOC Detection Coverage",
-  "domain": "enterprise-attack",
   "description": "Mapping detection playbooks to MITRE ATT&CK techniques",
+  "domain": "enterprise-attack",
   "techniques": [
     {
       "techniqueID": "T1566.001",
       "tactic": "initial-access",
       "score": 1,
-      "comment": "Phishing attachment covered in phishing-playbook.md"
+      "color": "#ff6666",
+      "comment": "Phishing with attachment (covered in phishing-playbook.md)"
     },
     {
       "techniqueID": "T1566.002",
       "tactic": "initial-access",
       "score": 1,
-      "comment": "Phishing link covered in phishing-playbook.md"
+      "color": "#ff6666",
+      "comment": "Phishing with link (covered in phishing-playbook.md)"
     },
     {
       "techniqueID": "T1059.001",
       "tactic": "execution",
       "score": 1,
-      "comment": "PowerShell reverse shell detection covered"
+      "color": "#ff6666",
+      "comment": "PowerShell script execution (covered in powershell-reverse-shell.md)"
     },
     {
       "techniqueID": "T1110",
       "tactic": "credential-access",
       "score": 1,
-      "comment": "Brute force attack detection covered"
+      "color": "#ff6666",
+      "comment": "Brute-force detection (covered in brute-force-attack.md)"
     }
   ],
   "gradient": {
@@ -36,7 +40,7 @@
   },
   "legendItems": [
     {
-      "label": "Covered",
+      "label": "Covered by Detection Playbook",
       "color": "#ff6666"
     }
   ],
