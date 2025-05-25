@@ -1,0 +1,24 @@
+{
+  "techniques": [
+    {
+      "techniqueID": "T1566.001",
+      "tactic": "initial-access",
+      "description": "Phishing with attachment - covered in phishing-playbook.md"
+    },
+    {
+      "techniqueID": "T1566.002",
+      "tactic": "initial-access",
+      "description": "Phishing with link - covered in phishing-playbook.md"
+    },
+    {
+      "techniqueID": "T1059.001",
+      "tactic": "execution",
+      "description": "PowerShell usage - covered in powershell-reverse-shell.md"
+    },
+    {
+      "techniqueID": "T1110",
+      "tactic": "credential-access",
+      "description": "Brute-force detection - covered in brute-force-attack.md"
+    }
+  ]
+}
